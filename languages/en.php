@@ -136,12 +136,7 @@ $lang = array(
     "Legal" => "Legal",
     "Privacy" => "Privacy",
     "Research" => "Research",
-
     "copyright" => "Canada Post Corporation"
-
-
-
-
 );
 
 
