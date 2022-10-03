@@ -1,0 +1,144 @@
+.footer {
+    background: #666;
+    padding-top: 2rem;
+
+    &__connect {
+        h2 {
+            color: #fff;
+            font-weight: 300;
+            margin-bottom: 1rem;
+            font-size: 1.125rem;
+            line-height: 1.75rem;
+            letter-spacing: 0.4px;
+        }
+    }
+
+    .social-media-icons {
+        margin-top: 0;
+        margin-bottom: 1.5rem;
+    }
+
+    .social-media-icons li {
+        display: inline-block;
+
+        a {
+            margin-right: 0.45rem;
+        }
+    }
+
+    .feedback-group {
+        margin-bottom: 2rem;
+
+        li {
+            display: flex;
+
+            img {
+                max-width: 24px;
+                margin-right: 0.5rem;
+            }
+        }
+
+        a {
+            color: #fff;
+            line-height: 1.5;
+            font-weight: 300;
+            letter-spacing: 0.5px;
+        }
+    }
+
+    &__links {
+        margin-bottom: 2rem;
+
+        .accordion {
+            .accordion-item {
+                &:last-of-type {
+                    border-bottom: 1px solid #ddd;
+                }
+            }
+        }
+
+        .accordion-item {
+            border: 0;
+            border-radius: 0;
+            background-color: transparent;
+            border: solid #ddd;
+            border-width: 1px 0 0;
+
+            .accordion-button {
+                padding: 0;
+                background-color: transparent;
+                box-shadow: none;
+                margin: 1rem 0rem;
+                color: #fff;
+                font-weight: 300;
+                margin-bottom: 1rem;
+                font-size: 1.125rem;
+                line-height: 1.75rem;
+                letter-spacing: 0.4px;
+                padding-left: 16px;
+                padding-right: 16px;
+
+                &::after {
+                    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
+                    background-size: 16px;
+                    background-position: center;
+                }
+            }
+        }
+
+        &__link {
+            padding-left: 16px;
+            padding-right: 16px;
+            margin-bottom: 1rem;
+
+            li {
+                padding-left: 0.5rem;
+                padding-top: 0.5rem;
+
+                a {
+                    color: #fff;
+                    line-height: 1.5;
+                    font-weight: 300;
+                    letter-spacing: 0.5px;
+                }
+            }
+        }
+    }
+
+    &__quixkLink {
+        text-align: center;
+        margin-bottom: 2rem;
+        p {
+            font-weight: 300;
+            letter-spacing: .5px;
+            color: #F0F0F0;
+        }
+
+        ul {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+            gap: 8px 0;
+            li {
+                &+li {
+                    padding-left: 0.75rem;
+                    border-left: 1px solid #F0F0F0;
+                    margin-left: 0.75rem;
+                }
+
+                a {
+                    font-weight: 300;
+                    letter-spacing: 0.5px;
+                    color: #F0F0F0;
+                    line-height: 1;
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+    .govCanLink{
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+}

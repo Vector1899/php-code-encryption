@@ -1,0 +1,35 @@
+.header {
+    border-bottom: 1px solid #CBCBCB;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        height: 48px;
+        align-items: center;
+    }
+
+    button {
+        border: 0;
+        background-color: transparent;
+        padding: 0;
+        margin: 0;
+    }
+    &__search{
+        min-width: 43px;
+        text-align: right;
+    }
+    &__toggle {
+        min-width: 43px;
+        button {
+            font-size: 17px;
+            font-weight: 400;
+        }
+    }
+
+    &__logo {
+        img {
+            width: 2.5rem;
+            max-height: 2.25rem;
+        }
+    }
+}
