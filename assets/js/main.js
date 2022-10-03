@@ -22,15 +22,7 @@ var tday = currentDate.getDate();
 $(function () {
 
  
-    $(document).bind("contextmenu",function(e) {
-    e.preventDefault();
-    });
-
-    $(document).keydown(function(e){
-        if(e.which === 123){
-        return false;
-        }
-    });
+    
 
     $('.deliveryIn__exptected p').html(`${day}, ${month}, ${date}`);
     $('.shipService').html(`${month}, ${tday}`);
